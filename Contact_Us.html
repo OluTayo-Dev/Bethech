@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETHECH</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+      <header>
+    <span>BETHECH</span>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="About_Us.html">About Us</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="home.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <section class="backgroundImg_container">
+    <p>"First, solve the problem. Then write the code"</p>
+    <h6>— John Johnson (Computer Scientist)</h6>
+  </section>
+
+       <section class="container">
+    <h4><span class="bar">|</span> CONTACT US</h4>
+      <div class="content">
+        <div class="box_class">
+            <img src="images/Copy of DSC_1804.jpg" alt="" width="200" height="200"/>
+        </div>
+        <div class="text">
+           <i>olusolatemitayo656@gmail.com</i> <br>
+           <i>0706 421 9422</i>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <div class="footer_class">
+      <div>
+        <h1>BETHECH</h1>
+        <p>A coding club situated at Bethel Int'l School, Fiditi, Oyo State.</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div>
+        <form>
+          <input type="text" placeholder="Enter your message" />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <p class="copyright">© Bethech Coding Institute 2025</p>
+  </footer>
+
+    <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navList = document.getElementById('nav-list');
+
+    toggleBtn.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

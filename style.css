@@ -172,3 +172,56 @@ footer .copyright {
   font-size: 0.9rem;
   color: #bbb;
 }
+
+.box_class{
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 40%;
+  transition: transform 0.3s ease;
+}
+.text{
+  width: 40%;
+}
+
+.text p{
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.box_class img{
+    width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service_nav{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.service_nav a{
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+@media(max-width: 540px) {
+  .content{
+    flex-direction: column;
+  }
+  .box_class{
+    width: 90%;
+  }
+  .text{
+    width: 90%;
+  }
+}
