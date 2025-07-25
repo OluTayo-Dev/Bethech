@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BETHECH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <span>BETHECH</span>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="backgroundImg_container">
+    <p>"First, solve the problem. Then write the code"</p>
+    <h6>— John Johnson (Computer Scientist)</h6>
+  </section>
+
+  <section class="container">
+    <h4><span class="bar">|</span> MEET OUR LEADERSHIP TEAM</h4>
+    <p>At the heart of our innovation is a team of forward-thinking leaders dedicated to shaping the future of technology and education.</p>
+  </section>
+
+  <section class="team-grid">
+    <div class="box">
+      <img src="./images/Copy of DSC_1897.jpg" alt="Oluwatomi Toluwabori" />
+      <p>Oluwatomi Toluwabori</p>
+      <h6>Chief Information Officer (CIO)</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1880.jpg" alt="Afolabi Toluwalase" />
+      <p>Afolabi Toluwalase</p>
+      <h6>Chief Operating Officer (COO)</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1833.jpg" alt="Oluwatomi Toluwalope" />
+      <p>Oluwatomi Toluwalope</p>
+      <h6>Chief Executive Officer (CEO)</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1801.jpg" alt="Adenaike Semilore" />
+      <p>Adenaike Semilore</p>
+      <h6>Chief Technology Officer (CTO)</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1889.jpg" alt="Nwagbara Tochukwu" />
+      <p>Nwagbara Tochukwu</p>
+      <h6>Chief Financial Officer (CFO)</h6>
+    </div>
+  </section>
+
+  <section class="container">
+    <h4><span class="bar">|</span> OUR TEAM OF SOFTWARE ENGINEERS</h4>
+    <p>Meet our team of software engineers whose logic and problem-solving techniques have greatly impacted the tech space.</p>
+  </section>
+
+  <section class="team-grid">
+    <!-- You can reuse this structure -->
+    <div class="box">
+      <img src="./images/Copy of DSC_1809.jpg" alt="Nwagbara Tochukwu" />
+      <p>Nwagbara Tochukwu</p>
+      <h6>Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1874.jpg" alt="Erigbuem Brenda" />
+      <p>Erigbuem Brenda</p>
+      <h6>Senior Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1828.jpg" alt="Mbam Treasure" />
+      <p>Mbam Treasure</p>
+      <h6>Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1819.jpg" alt="Okeke Christabel" />
+      <p>Okeke Christabel</p>
+      <h6>Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1821.jpg" alt="Afolabi Tomisin" />
+      <p>Afolabi Tomisin</p>
+      <h6>Junior Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1803.jpg" alt="Erigbuem Bryant" />
+      <p>Erigbuem Bryant</p>
+      <h6>Frontend Developer</h6>
+    </div>
+    <div class="box">
+      <img src="./images/Copy of DSC_1887.jpg" alt="Olatunde Olalekan" />
+      <p>Olatunde Olalekan</p>
+      <h6>Junior Frontend Developer</h6>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer_class">
+      <div>
+        <h1>BETHECH</h1>
+        <p>A coding club situated at Bethel Int'l School, Fiditi, Oyo State.</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div>
+        <form>
+          <input type="text" placeholder="Enter your message" />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <p class="copyright">© Bethech Coding Institute 2025</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navList = document.getElementById('nav-list');
+
+    toggleBtn.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
